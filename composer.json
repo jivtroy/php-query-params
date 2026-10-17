@@ -1,0 +1,27 @@
+{
+    "name": "jivtroy/php-query-params",
+    "description": "Set url querystring params using PHP.",
+    "keywords": ["query", "params", "url", "querystring"],
+    "type": "library",
+    "homepage": "https://github.com/jivtroy/php-query-params",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jiv Troy",
+            "homepage": "https://github.com/jivtroy",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/jivtroy/php-query-params/issues",
+        "source": "https://github.com/jivtroy/php-query-params"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPQueryParams\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.4 || ^8.0"
+    }
+}
